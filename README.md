@@ -63,7 +63,7 @@ print("Case #{}: {} {} {}".format(tc + 1, trace, rowCount, colCount))
 ```
 I sure wish google used a more modern python than 3.5... and got rid of the "Case" thing
 
-[Source](.\vestigum.py)
+[Source](./vestigum.py)
 ## Nesting Depth
 At first glance, this problem looks quite intimidating 
 
@@ -126,7 +126,7 @@ output in given format, joining the generated list with an empty char
 
 Complexity O(n)
 
-[Source](.\nesting.py)
+[Source](./nesting.py)
 ## Parenting
 For this problem, all of the events must be assigned to either parent- but it does not matter which parent gets the task. An important idea for this question is sorting the schedule by time- so the events are evaluated in order
 
@@ -174,7 +174,7 @@ output the built list
 
 Complexity O(nlogn)
 
-[Source](.\parenting.py)
+[Source](./parenting.py)
 
 ## ESAb ATAd (database)
 This question asks for data to be gathered through queries. For any question of this form, the goal should always be to gleam as much information as possible through each query. 
@@ -184,8 +184,8 @@ This question has the hidden array change itself secretly every 10 queries, so t
 The two operations on the array are flip, and invert. Which of the operations (or both, or neither) occurred can be discovered using only two queries- leaving the other 8 queries free to discover the states of new bits
 
 more explanation to come
-[Source](.\database.py)
+[Source](./database.py)
 
 ## Indicium 
 I first built up a possible diagonal of the final latin square (which has a matching trace) then filled in the rest of the elements with a sudoku solver
-[Source](.\latin.py)
+[Source](./latin.py)
